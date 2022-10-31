@@ -1,0 +1,40 @@
+.footer-client {
+    width: 206px;
+    height: 80px;
+}
+
+.client-title {
+    font-size: 14px;
+    line-height: 1.14em;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.client-soc-list {
+    display: flex;
+    gap: 10px;
+}
+
+.client-soc-item {}
+
+.client-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(249, 249, 249, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client-soc-icon {
+    fill: #ffffff;
+}
+
+.client-soc-link:hover,
+.client-soc-link:focus {
+    background-color: rgba(33, 150, 243, 1);
+}
