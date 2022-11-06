@@ -2,7 +2,7 @@
     padding-top: 0px;
 }
 
-.works-title {
+.works__title {
     font-size: 36px;
     line-height: 42px;
     text-align: center;
@@ -10,15 +10,15 @@
     color: var(--color-title);
 }
 
-.works-list {
+.works__list {
     margin-top: 50px;
 }
 
-.works-item {
+.works__item {
     position: relative;
 }
 
-.work-text {
+.work__text {
     position: absolute;
     font-weight: 700;
     font-style: normal;

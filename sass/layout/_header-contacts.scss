@@ -5,11 +5,11 @@
   gap: 50px;
 }
 
-.contacts-item {
+.contacts__item {
   display: flex;
 }
 
-.contacts-mail {
+.contacts__mail {
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -26,21 +26,21 @@
   }
 }
 
-.contact-icon {
+.contact__icon {
   fill: rgba(117, 117, 117, 1);
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .contacts-mail:hover &,
-  .contacts-mail:focus & {
+  .contacts__mail:hover &,
+  .contacts__mail:focus & {
     fill: #2196f3;
   }
-  .contacts-tel:hover &,
-  .contacts-tel:focus & {
+  .contacts__tel:hover &,
+  .contacts__tel:focus & {
     fill: #2196f3;
   }
 }
 
-.contacts-tel {
+.contacts__tel {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;

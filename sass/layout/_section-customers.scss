@@ -4,7 +4,7 @@
 .customers-flex {
 }
 
-.customers-title {
+.customers__title {
   font-size: 36px;
   line-height: 1.17em;
   text-align: center;
@@ -13,14 +13,14 @@
   margin-bottom: 50px;
 }
 
-.customers-list {
+.customers__list {
   align-items: flex-start;
 }
 
-.customers-item {
+.customers__item {
 }
 
-.customers-link {
+.customers__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,11 +36,11 @@
   }
 }
 
-.customers-icon {
+.customers__icon {
   fill: rgba(175, 177, 184, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  .customers-link:hover &,
-  .customers-link:focus & {
+  .customers__link:hover &,
+  .customers__link:focus & {
     fill: rgba(33, 150, 243, 1);
   }
 }
